@@ -1,0 +1,7 @@
+-{vIncl}=""
+>
+-c src/main.c -o obj/test.o
+-{vIncl}
+>
+-o obj/ -#To out/App.*
+>
