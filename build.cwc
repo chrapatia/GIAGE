@@ -1,7 +1,13 @@
--{vIncl}=""
+-{vIncl}=
+-I libs/
+> 
+-{vFlag}=
+-DSOKOL_GLCORE33
 >
 -c src/main.c -o obj/test.o
--{vIncl}
+-{vIncl} -{vFlag}
 >
--o obj/ -#To out/App.*
+-o obj/ -#To out/App.* -lgdi32
+>
+-#Run
 >

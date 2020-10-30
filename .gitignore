@@ -1,0 +1,4 @@
+.wdat/
+obj/
+out/
+*.glsl.h
